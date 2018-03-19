@@ -1,9 +1,9 @@
 theme: Poster Custom
 footer: @stephaniecodes
 
-# Haute Codeture
+## Make your leds better listeners
 
-# <br><br><br><br>
+## <br/><br/><br/>✨<br/>
 
 ### Stephanie Nemeth
 
@@ -103,58 +103,6 @@ footer: @stephaniecodes
 
 ^ and wanted to use my skillset as a developer
 
-^ to make something where a user anywhere in the world could create some kind of art in app
-
-^ and send it back to me as the artist to enjoy for a small amount of time.
-
----
-
-# My first project
-
-![inline loop](react-native-demo.mp4)
-
-^Person creates a pixel art design on a web app
-
-^Sends it to my raspberry pi
-
-^Shows up on my rpi in my living room
-
----
-
-# My first project
-
-![inline](rpi-pixel-diagram.png)
-
-^Communication between the app and rpi is handled through socketio
-
-^event-based messaging library that works in all browsers/devices
-
-^ i created a socketio server to relay the msgs
-
-^ it was challenging to take on this project and figure out how to get it all to work together.
-
----
-
-# Creating art with a raspberry pi
-
-🎨 [light-art.herokuapp.com](https://light-art.herokuapp.com)
-
-📹 [goo.gl/mK5afh](https://www.youtube.com/watch?v=eud6LnzVISM)
-
-<br>![100%](qr_code.png)
-
-^ But I want to tell about my next big hardware project after this one.
-
-^ And send me some pixel art in a few days when I'm back home.
-
-^I gave my first conf talk last year about this project.
-
-^ If interested, Definitely check out the video from Codeland Conf.
-
-^Really inspired by the reaction to my pixel art project
-
-^Started thinking how I can take the experience out of my living room.
-
 ---
 
 ## What if
@@ -202,7 +150,15 @@ footer: @stephaniecodes
 * LEDs + hardware in clothing
 * Socket.IO: send messages from app to clothing
 
-^ Of course, I'll use SocketIO again
+^ Communication between the app and rpi is handled through socketio
+
+^ One of my favorite libraries as a dev
+
+^ Event-based messaging library that works in all browsers/devices
+
+^ i created a socketio server to relay the msgs
+
+^ it was challenging to take on this project and figure out how to get it all to work together.
 
 ^ Used it in my Raspberry Pi art project
 
@@ -516,7 +472,9 @@ A lightweight messaging protocol<br/>optimized for high-latency or unreliable ne
 
 ![inline 102%](qos.png)[^ ]
 
-[^ ]:[http://internetofthingsagenda.techtarget.com/definition/MQTT-MQ-Telemetry-Transport](http://internetofthingsagenda.techtarget.com/definition/MQTT-MQ-Telemetry-Transport)
+[^ ]:
+
+  [http://internetofthingsagenda.techtarget.com/definition/MQTT-MQ-Telemetry-Transport](http://internetofthingsagenda.techtarget.com/definition/MQTT-MQ-Telemetry-Transport)
 
 ^Quality of Service
 
