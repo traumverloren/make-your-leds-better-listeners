@@ -109,9 +109,7 @@ footer: @stephaniecodes
 
 ## I made my clothing
 
-## the canvas?
-
-^Taking this same idea and transferring it to my clothing
+## interactive?
 
 ^Really interested in interactions that might occur when people realize it's interactive.
 
@@ -154,15 +152,11 @@ footer: @stephaniecodes
 
 ^ One of my favorite libraries as a dev
 
+^ had used it before so i was already familiar with it
+
 ^ Event-based messaging library that works in all browsers/devices
 
 ^ i created a socketio server to relay the msgs
-
-^ it was challenging to take on this project and figure out how to get it all to work together.
-
-^ Used it in my Raspberry Pi art project
-
-^ Already knew that it works
 
 ^ Easy setup: node.js server & client libraries
 
@@ -173,8 +167,6 @@ footer: @stephaniecodes
 ## Easy, right?
 
 ^ I had a plan
-
-^ Applying all the things I learned and worked in my first project
 
 ^ Everything is gonna go really smoothly
 
@@ -214,13 +206,13 @@ footer: @stephaniecodes
 
 ![inline](led-couture-schema-socketio-heroku.png)
 
-^ Since I was going to build a small web app like before, I didn't have to think much about that part of the project
+^ I didn't have to think much about this part of the project
 
 ^ Create a simple web app where users choose a color and program for my clothing
 
 ^ Create a socketio server to relay the messages from the app to the hardware
 
-^ Deploy both on a simple express server on Heroku.
+^ Deploy it all on a simple express server on Heroku.
 
 ^ Main focus was on hardware
 
@@ -614,7 +606,7 @@ void loop() {
 # MQTT Broker
 
 * Couldn't create my own on Heroku (ports not accessible)
-* But... not ready to move services and do devops stuff yet 😮
+* But... also not ready to leave Heroku
 
 ^ Minor hiccup... but looked for a Broker as a service instead
 
