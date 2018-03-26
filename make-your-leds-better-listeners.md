@@ -152,11 +152,11 @@ footer: @stephaniecodes
 
 ^ One of my favorite libraries as a dev
 
-^ had used it before so i was already familiar with it
-
 ^ Event-based messaging library that works in all browsers/devices
 
-^ i created a socketio server to relay the msgs
+^ integrate socketio client libraries into app and clothing
+
+^ create a socketio server to relay the msgs
 
 ^ Easy setup: node.js server & client libraries
 
@@ -178,9 +178,7 @@ footer: @stephaniecodes
 
 ^ Lots of wiring and soldering
 
-^ Though I had learned a lot from my first project
-
-^ There was new difficulties I faced during this project
+^ Most ambitious hardware project so far
 
 ---
 
@@ -206,13 +204,13 @@ footer: @stephaniecodes
 
 ![inline](led-couture-schema-socketio-heroku.png)
 
-^ I didn't have to think much about this part of the project
-
 ^ Create a simple web app where users choose a color and program for my clothing
 
 ^ Create a socketio server to relay the messages from the app to the hardware
 
 ^ Deploy it all on a simple express server on Heroku.
+
+^ I didn't have to think much about the software side of the project
 
 ^ Main focus was on hardware
 
@@ -562,7 +560,6 @@ void setup() {
   // Called when message received
   MQTTClient.onMessage(messageReceived);
 }
-
 void loop() {
   // Sends/receives messages
   MQTTClient.loop();
@@ -713,7 +710,6 @@ const appPort = 8080;
 
 mqttServer.listen(mqttPort, function() {});
 httpServer.listen(appPort, function() {});
-
 // Augment the HTTP server with MQTT-over-websocket capabilities
 ws.createServer({ server: httpServer }, aedes.handle);
 ```
@@ -724,7 +720,9 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 ^Create MQTT server & HTTP server
 
-^Listen on the specified port
+^ Specify ports
+
+^Listen on those ports
 
 ^Then addon so the HTTP server has MQTT over websocket capabilities so that it can handle MQTT connections from clients in the browser (our web app)
 
@@ -815,4 +813,4 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 [stephanie.lol](https://stephanie.lol)
 
-[@stephanicodes](https://twitter.com/stephaniecodes)
+[@stephaniecodes](https://twitter.com/stephaniecodes)
