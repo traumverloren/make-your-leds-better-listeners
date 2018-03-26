@@ -89,9 +89,7 @@ footer: @stephaniecodes
 > I wanted something ephemeral that would pass like a falling star...The work had to just transpire, make people dream and talk, and that would be all.
 > -- Jean Tinguely
 
-^I was inspired by the exhibit
-
-^ this quote by Tinguely stood out to me.
+^ At the exhibit, this quote by Tinguely stood out to me.
 
 ^ Really liked idea of art as a temporary experience that connects an artist and viewer
 
@@ -102,6 +100,8 @@ footer: @stephaniecodes
 ^ I was excited by all these ideas
 
 ^ and wanted to use my skillset as a developer
+
+^ and make my own interactive art experience
 
 ---
 
@@ -148,7 +148,7 @@ footer: @stephaniecodes
 * LEDs + hardware in clothing
 * Socket.IO: send messages from app to clothing
 
-^ Communication between the app and rpi is handled through socketio
+^ Communication between the app and clothing is handled through socketio
 
 ^ One of my favorite libraries as a dev
 
