@@ -97,6 +97,10 @@ footer: @stephaniecodes
 
 ^ Only meant to bring joy and inspire for short time
 
+---
+
+# ![](blue-hair-emoji.png) + ![](computer.png) = ![](art.png)
+
 ^ I was excited by all these ideas
 
 ^ and wanted to use my skillset as a developer
@@ -409,11 +413,11 @@ A lightweight messaging protocol<br/>optimized for high-latency or unreliable ne
 
 ^clients and a broker.
 
-^Clients connect to the broker, which then mediates communication between the two devices.
+^Clients connect to the broker, which then mediates communication between the devices.
 
-^Each device can subscribe to particular topics.
+^When a device connect,s it can subscribe to topics.
 
-^When another client publishes a message on a subscribed topic, the broker forwards the message to any client that has subscribed.
+^Then, when another client publishes a message on a subscribed topic, the broker forwards the message to any client that has subscribed to it.
 
 ^Publisher and subscriber do not need to know each other
 
@@ -430,11 +434,11 @@ A lightweight messaging protocol<br/>optimized for high-latency or unreliable ne
 
 ^MQTT control packet headers are kept as small as possible.
 
-^Having a small header overhead makes this protocol appropriate for IoT by lowering the amount of data transmitted over constrained networks.
-
 ^Every bit in the packet is carefully crafted to reduce the data transmitted over the network.
 
 ^It means that in comparison with many other protocols (HTTP) it almost does not load the network with the transfer of information, which is necessary only for the functioning of the protocol.
+
+^Having a small header overhead makes this protocol appropriate for IoT by lowering the amount of data transmitted over constrained networks.
 
 ---
 
@@ -442,7 +446,7 @@ A lightweight messaging protocol<br/>optimized for high-latency or unreliable ne
 
 * Data agnostic payload
 
-^Send binary, jpgs, etc
+^Send binary, jpg images, pdfs, etc
 
 ---
 
@@ -480,7 +484,7 @@ A lightweight messaging protocol<br/>optimized for high-latency or unreliable ne
 
 ^ Simple verbs used to describe actions:
 
-^eg CONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE and DISCONNECT types that are significant for developers.
+^ Basically 5 verbs in MQTT: CONNECT, DISCONNECT, PUBLISH, SUBSCRIBE, PING
 
 ---
 
@@ -532,11 +536,11 @@ rainbowButton.addEventListener("click", () => sendEvent("rainbow"));
 
 ^Only a couple lines of code to implement.
 
-^Include the library
+^Include the library, Create a client that connects to the url wherever the mqtt broker is located on the web
 
-^Create a client that connects to wherever url the mqtt broker is located
+^Create a function so that whenever the rainbowButton is clicked,
 
-^Whenever the rainbowButton is clicked, sends a message to the broker with topic "lights" with the payload being the string "rainbow"
+^sends a message to the broker with topic "lights" with the payload being the string "rainbow"
 
 ---
 
@@ -568,9 +572,7 @@ void loop() {
 
 ^Easy to follow even if you aren't familiar with coding for arduino!
 
-^Only a couple lines of code to implement.
-
-^Include the library
+^ Almost identical to web client
 
 ^Connect client to mqtt broker thru the url
 
@@ -791,7 +793,7 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 ---
 
-# Final thoughts
+## I messed up a lot.
 
 ^It can take many iterations to get something right
 
@@ -801,9 +803,23 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 ^and it was super frustrating,
 
-^but it all helped me learn and improve my skills.
+^but i think in the end i got better? Or at least didn't make the same mistake again and again.
 
-^breaking stereotypes with strangers
+---
+
+## It's a _really_ weird experiment to do as an introvert.
+
+^ attracting attention and actively seeking out people to interact with me is way outside my comfort zone.
+
+^ it was an experiment to see if i could bring joy to strangers by giving them free reign over my appearance.
+
+^ it was also an experiment that pushed me to deal with my own reactions to those interactions.
+
+^ breaking stereotypes with strangers
+
+^ what you can build and who is capable of building those things.
+
+^
 
 ---
 
