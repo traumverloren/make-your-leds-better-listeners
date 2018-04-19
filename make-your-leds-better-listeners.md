@@ -3,11 +3,11 @@ footer: @stephaniecodes
 
 ## Make your leds better listeners
 
-## <br/><br/><br/>✨<br/>
+## <br/><br/>
 
 ### Stephanie Nemeth
 
-#### @stephaniecodes
+#### @stephaniecodes ✨ stephanie.lol
 
 [.hide-footer]
 
@@ -114,6 +114,10 @@ footer: @stephaniecodes
 ## I made my clothing
 
 ## interactive?
+
+^ I didn't have a studio space to create an installation like Tinguely.
+
+^ Apply same idea of interactivity to the most accessible form of expression I could think of - my clothing.
 
 ^Really interested in interactions that might occur when people realize it's interactive.
 
@@ -287,6 +291,10 @@ footer: @stephaniecodes
 ^So, the build process:
 
 ^Basically me sitting on the floor in my living room of my tiny amsterdam apartment, and constructing each piece, testing, and fixing soldering mistakes lol
+
+---
+
+![fit](cards.jpg)
 
 ---
 
@@ -795,6 +803,10 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 ## I messed up a lot.
 
+#<br/>
+
+#### (Flashylights.nl)
+
 ^It can take many iterations to get something right
 
 ^I messed a bunch during this with trying to figure out devops
@@ -809,11 +821,27 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 ## It's a _really_ weird experiment to do as an introvert.
 
+#<br/>
+
+#### (Flashylights.nl)
+
 ^ attracting attention and actively seeking out people to interact with me is way outside my comfort zone.
 
-^ it was an experiment to see if i could bring joy to strangers by giving them free reign over my appearance.
+^ but I really wanted to see if i could bring a momentary and joyful to strangers by giving them free reign over my appearance.
+
+^ An application like this is a side of tech a lot of folks haven't experienced.
 
 ^ it was also an experiment that pushed me to deal with my own reactions to those interactions.
+
+---
+
+## _Who_ and _what_ belongs in tech?
+
+#<br/>
+
+#### (Flashylights.nl)
+
+^ An application like this is a side of tech a lot of folks haven't experienced.
 
 ^ breaking stereotypes with strangers
 
@@ -825,7 +853,7 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 # Thank you!
 
-🦄✌☮️️✨
+###🦄✌☮️️✨
 
 [stephanie.lol](https://stephanie.lol)
 
