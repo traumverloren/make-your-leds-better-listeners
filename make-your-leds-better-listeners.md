@@ -154,7 +154,7 @@ footer: @stephaniecodes
 
 * Web app for user input
 * LEDs + hardware in clothing
-* Socket.IO: send messages from app to clothing
+* Send messages from app to clothing: <br/>Socket.IO
 
 ^ Communication between the app and clothing is handled through socketio
 
@@ -779,7 +779,7 @@ ws.createServer({ server: httpServer }, aedes.handle);
 
 ^ Separate Wifi module
 
-^ So doesn't have to yield to wifi core, steady wifi throughput
+^ Don't have to yield all the time to the WiFi core, since its a separate chip. You get full reign of the processor and timing
 
 ^ 2X cost of Feather Huzzah
 
